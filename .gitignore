@@ -1,0 +1,11 @@
+.env
+__pycache__/
+*.pyc
+
+database/*.db
+
+data/vector_db/*.bin
+data/vector_db/*.pkl
+
+venv/
+.venv/
