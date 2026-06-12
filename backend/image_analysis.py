@@ -63,7 +63,8 @@ def analyze_and_search(
     )
 
     context = "\n\n".join(
-        docs
+    doc["text"]
+    for doc in docs
     )
 
     return (
